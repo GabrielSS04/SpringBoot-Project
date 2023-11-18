@@ -1,7 +1,10 @@
 package com.fag.SpringBoot;
+/*classe base para manpular os resultados e armazenalos*/
 
 public class Jogada {
 
+
+    
     private String jogador;
     private String computador;
 

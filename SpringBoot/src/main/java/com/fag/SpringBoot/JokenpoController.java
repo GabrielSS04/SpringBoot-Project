@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class JokenpoController {
 
+    /*Classe onde coleta o valor no html para utilizalo*/
+
     @Autowired
     private JokenpoService jokenpoService;
 

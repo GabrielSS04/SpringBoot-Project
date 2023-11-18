@@ -7,6 +7,8 @@ import java.util.Random;
 @Service
 public class JokenpoService {
 
+    /*Classe onde ocorre as funções que o programa precisa ter para funcionar */
+
     public String escolherJogadaComputador() {
         String[] opcoes = {"pedra", "papel", "tesoura"};
         int indiceEscolhido = new Random().nextInt(opcoes.length);
